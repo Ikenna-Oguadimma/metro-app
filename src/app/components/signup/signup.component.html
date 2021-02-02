@@ -1,0 +1,63 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<form (ngSubmit)="postUsers(data)">
+<div class="container"><input type="radio" name="tab" id="signin" checked="checked" /><input type="radio" name="tab" id="register" />
+  <input type="radio" name="tab" id="register2" />
+   <div class="pages">
+       <div class="page">
+           <div class="input">
+               <div class="title"><i class="material-icons">account_box</i> USERNAME</div><input class="text" type="text" placeholder="" /></div>
+           <div class="input">
+               <div class="title"><i class="material-icons">lock</i> PASSWORD</div><input class="text" type="password" placeholder="" /></div>
+                  <img class="logo" src="../assets/images/logo bus.png" alt="Metro Logo">
+           <div class="input"><input type="submit" value="ENTER" /></div>
+       </div>
+
+<div class="page signup">
+<div class="input-container"> <!--div container starts here -->
+       <div class="column1"> <!--div that starts the first 3 input-->
+           <div class="input">
+               <div class="title" ><i class="material-icons">person</i> NAME</div><input class="text" name="name" [(ngModel)]="data.name" type="text" placeholder="" /></div>
+           <div class="input">
+               <div class="title"><i class="material-icons">markunread_mailbox</i> EMAIL</div><input class="text" name="email" [(ngModel)]="data.email" type="email" placeholder="" /></div>
+        <div class="input">
+               <div class="title"><i class="material-icons">lock</i> PASSWORD</div><input class="text" type="password" placeholder="" /></div>
+      </div>
+      <div class="column2">
+           <div class="input">
+               <div class="title"><i class="material-icons">cake</i> BIRTDATE</div><input class="text" type="date" placeholder="" /></div>
+           <div class="input">
+               <div class="title">USERNAME</div><input class="text" name="username" [(ngModel)]="data.username" type="text" placeholder="" /></div>
+           <div class="input">
+               <div class="title">NEEDS/ACCOMODATIONS</div><input class="text" type="text" placeholder="" /></div>
+      </div>
+</div> <!-- end of input container div -->
+           <!-- <a class="active" routerLink="/signup" routerLinkActive="active"><div class="input"><input type="submit" value="SIGN ME UP!" /></div></a> -->
+           <input type="submit" value="SIGN ME UP!"/>
+</div>
+<div class="page signup2">
+<div class="input-container2"> <!--div container starts here -->
+      <div class="column1"> <!--div that starts the first 3 input-->
+           <div class="input">
+               <div class="title"><i class="material-icons">person</i> NAME</div><input class="text" type="text" placeholder="" /></div>
+           <div class="input">
+               <div class="title"><i class="material-icons">markunread_mailbox</i> EMAIL</div><input class="text" type="email" placeholder="" /></div>
+           <div class="input">
+               <div class="title"><i class="material-icons">lock</i> PASSWORD</div><input class="text" type="password" placeholder="" /></div>
+       </div>
+       <div class="column2">
+           <div class="input">
+               <div class="title"><i class="material-icons">lock</i> BIRTDATE</div><input class="text" type="date" placeholder="" /></div>
+           <div class="input">
+               <div class="title">USERNAME</div><input class="text" type="text" placeholder="" /></div>
+           <div class="input">
+               <div class="title">EMPLOYEE ID</div><input class="text" type="text" placeholder="" /></div>
+       </div>
+</div> <!-- end of input container div -->
+           <div class="input"><input type="submit" value="SIGN ME UP!" /></div>
+</div>
+   </div>
+   <div class="tabs"><label class="tab" for="signin"><div class="text">Login</div></label><label class="tab" for="register"><div class="text">Register as Pedestrian</div></label>
+   <label class="tab" for="register2"><div class="text">Employee Registration</div></label></div>
+</div>
+</form>
