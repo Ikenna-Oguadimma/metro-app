@@ -1,4 +1,5 @@
 # Metro
+This is a work in progress project. It is not yet mobile responsive.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
 

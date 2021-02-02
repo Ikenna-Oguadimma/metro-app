@@ -9,6 +9,8 @@ import {BackgroundComponent} from './components/background/background.component'
 import {SignupBusdriverComponent} from './components/signup-busdriver/signup-busdriver.component';
 import {BusScheduleComponent} from './components/bus-schedule/bus-schedule.component';
 import {FormsModule} from '@angular/forms';
+import { SignupComponent } from './components/signup/signup.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import {FormsModule} from '@angular/forms';
     BackgroundComponent,
     NavBarComponent,
     SignupBusdriverComponent,
-    BusScheduleComponent
+    BusScheduleComponent,
+    SignupComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
