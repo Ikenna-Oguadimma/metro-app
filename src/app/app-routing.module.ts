@@ -1,22 +1,10 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
-import { SignupComponent } from './signup/signup.component';
-import { BusScheduleComponent } from './bus-schedule/bus-schedule.component';
-
-const routes: Routes = [
-  {
-    path: 'signup',
-    component: SignupComponent
-  },
-  {
-    path: 'bus-schedule',
-    component: BusScheduleComponent
-  }
-];
+const routes: Routes = [];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes,{useHash:true})],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
