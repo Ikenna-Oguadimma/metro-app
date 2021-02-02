@@ -16,7 +16,8 @@ ul {
 }
 .cb-slideshow:after {
   content: '';
-  background: transparent url("../../assets/images/whitebox.jpg") repeat top left;
+  //background: transparent url("../../../assets/images/whitebox.jpg") repeat top left;
+  background: transparent url("../../../assets/images/whitebox.jpg") repeat top left;
   opacity: .6;
   background-size: cover;
 }
@@ -30,7 +31,7 @@ ul {
   color: transparent;
   background-size: cover;
   background-position: 50% 50%;
-  background-repeat: none;
+  background-repeat: no-repeat;
   opacity: 0;
   z-index: -100;
   animation: imageAnimation 36s linear infinite 0s;
@@ -55,143 +56,143 @@ ul {
 }
 
 .cb-slideshow li:nth-child(1) span {
-  background-image: url("../../assets/images/City.jpg");
+  background-image: url("../../../assets/images/City.jpg");
 
 }
 .cb-slideshow li:nth-child(2) span {
-  background-image: url("../../assets/images/Urban-20.jpg");
+  background-image: url("../../../assets/images/Urban-20.jpg");
   animation-delay: 6s;
 
 }
 .cb-slideshow li:nth-child(3) span {
-  background-image: url("../../assets/images/Urban-19.jpg");
+  background-image: url("../../../assets/images/Urban-19.jpg");
   animation-delay: 12s;
 
 }
 .cb-slideshow li:nth-child(4) span {
-  background-image: url("../../assets/images/Urban-13.jpg");
+  background-image: url("../../../assets/images/Urban-13.jpg");
   animation-delay: 18s;
 
 }
 .cb-slideshow li:nth-child(5) span {
-  background-image: url("../../assets/images/Urban-18.jpg");
+  background-image: url("../../../assets/images/Urban-18.jpg");
   animation-delay: 24s;
 
 }
 .cb-slideshow li:nth-child(6) span {
-  background-image: url("../../assets/images/Urban-17.jpg");
+  background-image: url("../../../assets/images/Urban-17.jpg");
   animation-delay: 30s;
 }
 .cb-slideshow li:nth-child(7) span {
-  background-image: url("../../assets/images/City-2.jpg");
+  background-image: url("../../../assets/images/City-2.jpg");
   animation-delay: 36s;
 }
 .cb-slideshow li:nth-child(8) span {
-  background-image: url("../../assets/images/Urban-11.jpg");
+  background-image: url("../../../assets/images/Urban-11.jpg");
   animation-delay: 42s;
 }
 .cb-slideshow li:nth-child(9) span {
-  background-image: url("../../assets/images/Urban-6.jpg");
+  background-image: url("../../../assets/images/Urban-6.jpg");
   animation-delay: 48s;
 }
 .cb-slideshow li:nth-child(10) span {
-  background-image: url("../../assets/images/City-12.jpg");
+  background-image: url("../../../assets/images/City-12.jpg");
   animation-delay: 54s;
 }
 .cb-slideshow li:nth-child(11) span {
-  background-image: url("../../assets/images/Urban-3.jpg");
+  background-image: url("../../../assets/images/Urban-3.jpg");
   animation-delay: 60s;
 }
 .cb-slideshow li:nth-child(12) span {
-  background-image: url("../../assets/images/Urban.jpg");
+  background-image: url("../../../assets/images/Urban.jpg");
   animation-delay: 66s;
 }
 .cb-slideshow li:nth-child(13) span {
-  background-image: url("../../assets/images/Urban-15.jpg");
+  background-image: url("../../../assets/images/Urban-15.jpg");
   animation-delay: 72s;
 }
 .cb-slideshow li:nth-child(14) span {
-  background-image: url("../../assets/images/City-8.jpg");
+  background-image: url("../../../assets/images/City-8.jpg");
   animation-delay: 78s;
 }
 .cb-slideshow li:nth-child(15) span {
-  background-image: url("../../assets/images/City-11.jpg");
+  background-image: url("../../../assets/images/City-11.jpg");
   animation-delay: 84s;
 }
 .cb-slideshow li:nth-child(16) span {
-  background-image: url("../../assets/images/Urban-2.jpg");
+  background-image: url("../../../assets/images/Urban-2.jpg");
   animation-delay: 90s;
 }
 .cb-slideshow li:nth-child(17) span {
-  background-image: url("../../assets/images/City-3.jpg");
+  background-image: url("../../../assets/images/City-3.jpg");
   animation-delay: 96s;
 }
 .cb-slideshow li:nth-child(18) span {
-  background-image: url("../../assets/images/City-5.jpg");
+  background-image: url("../../../assets/images/City-5.jpg");
   animation-delay: 102s;
 }
 .cb-slideshow li:nth-child(19) span {
-  background-image: url("../../assets/images/Urban-5.jpg");
+  background-image: url("../../../assets/images/Urban-5.jpg");
   animation-delay: 108s;
 }
 .cb-slideshow li:nth-child(20) span {
-  background-image: url("../../assets/images/Urban-10.jpg");
+  background-image: url("../../../assets/images/Urban-10.jpg");
   animation-delay: 114s;
 }
 .cb-slideshow li:nth-child(21) span {
-  background-image: url("../../assets/images/Urban-12.jpg");
+  background-image: url("../../../assets/images/Urban-12.jpg");
   animation-delay: 120s;
 }
 .cb-slideshow li:nth-child(22) span {
-  background-image: url("../../assets/images/City-10.jpg");
+  background-image: url("../../../assets/images/City-10.jpg");
   animation-delay: 126s;
 }
 .cb-slideshow li:nth-child(23) span {
-  background-image: url("../../assets/images/City-7.jpg");
+  background-image: url("../../../assets/images/City-7.jpg");
   animation-delay: 132s;
 }
 .cb-slideshow li:nth-child(24) span {
-  background-image: url("../../assets/images/Urban-16.jpg");
+  background-image: url("../../../assets/images/Urban-16.jpg");
   animation-delay: 138s;
 }
 .cb-slideshow li:nth-child(25) span {
-  background-image: url("../../assets/images/Urban-9.jpg");
+  background-image: url("../../../assets/images/Urban-9.jpg");
   animation-delay: 144s;
 }
 .cb-slideshow li:nth-child(26) span {
-  background-image: url("../../assets/images/City-9.jpg");
+  background-image: url("../../../assets/images/City-9.jpg");
   animation-delay: 150s;
 }
 .cb-slideshow li:nth-child(27) span {
-  background-image: url("../../assets/images/Urban-4.jpg");
+  background-image: url("../../../assets/images/Urban-4.jpg");
   animation-delay: 156s;
 }
 .cb-slideshow li:nth-child(28) span {
-  background-image: url("../../assets/images/Urban-7.jpg");
+  background-image: url("../../../assets/images/Urban-7.jpg");
   animation-delay: 162s;
 }
 .cb-slideshow li:nth-child(29) span {
-  background-image: url("../../assets/images/City-4.jpg");
+  background-image: url("../../../assets/images/City-4.jpg");
   animation-delay: 168s;
 }
 .cb-slideshow li:nth-child(30) span {
-  background-image: url("../../assets/images/City-1.jpg");
+  background-image: url("../../../assets/images/City-1.jpg");
   animation-delay: 174s;
 }
 .cb-slideshow li:nth-child(31) span {
-  background-image: url("../../assets/images/Urban-14.jpg");
+  background-image: url("../../../assets/images/Urban-14.jpg");
   animation-delay: 180s;
 }
 .cb-slideshow li:nth-child(32) span {
-  background-image: url("../../assets/images/Urban-8.jpg");
+  background-image: url("../../../assets/images/Urban-8.jpg");
   animation-delay: 186s;
 }
 .cb-slideshow li:nth-child(33) span {
-  background-image: url("../../assets/images/Urban-1.jpg");
+  background-image: url("../../../assets/images/Urban-1.jpg");
   animation-delay: 192s;
 }
 .cb-slideshow li:nth-child(34) span {
-  background-image: url("../../assets/images/City-6.jpg");
+  background-image: url("../../../assets/images/City-6.jpg");
   animation-delay: 198s;
 }
 

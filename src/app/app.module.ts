@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {ButtonsComponent} from './components/buttons/buttons.component';
-import {SignupComponent} from './components/signup/signup.component';
 import {NavBarComponent} from './components/nav-bar/nav-bar.component';
 import {BackgroundComponent} from './components/background/background.component';
 import {SignupBusdriverComponent} from './components/signup-busdriver/signup-busdriver.component';
@@ -17,7 +16,6 @@ import {FormsModule} from '@angular/forms';
     ButtonsComponent,
     BackgroundComponent,
     NavBarComponent,
-    SignupComponent,
     SignupBusdriverComponent,
     BusScheduleComponent
   ],

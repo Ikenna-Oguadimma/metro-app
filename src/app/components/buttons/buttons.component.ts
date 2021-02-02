@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as $ from 'jquery';
+// import * as $ from 'jquery';
 
 @Component({
   selector: 'app-buttons',
@@ -11,22 +11,22 @@ export class ButtonsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    $(".e-list").slideUp(function() {
-      $(".e-button").removeClass("open");
-  });
-
-  $(".e-button").on("click", function() {
-      if ($(this).hasClass("open")) {
-          $(".e-list").slideUp(function() {
-              $(".e-button").removeClass("open");
-          });
-      } else {
-          $(this).addClass("open");
-          setTimeout(function() {
-              $(".e-list").stop().slideDown();
-          }, 200);
-      }
-  });
+  //   $(".e-list").slideUp(function() {
+  //     $(".e-button").removeClass("open");
+  // });
+  //
+  // $(".e-button").on("click", function() {
+  //     if ($(this).hasClass("open")) {
+  //         $(".e-list").slideUp(function() {
+  //             $(".e-button").removeClass("open");
+  //         });
+  //     } else {
+  //         $(this).addClass("open");
+  //         setTimeout(function() {
+  //             $(".e-list").stop().slideDown();
+  //         }, 200);
+  //     }
+  // });
 
   }
 
